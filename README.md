@@ -1,27 +1,25 @@
-# node-test
+## Requerimentos
 
-Como parte do processo seletivo da Startec Jobs, utilizamos esse desafio técnico para avaliar seus conhecimento técnicos e habilidades com o requisito da vaga, lembrando apenas, que claro, o teste deve ser feito por você e apenas você, no conforto de seu lar!
+- Node &ge; 16.14
+- Npm ou Yarn
 
-## Descrição do desafio
+### Tecnologias Utilizadas
 
-O desafio consiste em criar uma aplicação server-side escalável, utilizando Typescript construa uma função lambda que simule um algoritmo de eliminação para pré avaliar possíveis candidatos em vagas.
+- Code style: ESLint
+- Lambda
 
-### Exemplo
+### Sobre
 
-Uma vaga CLT e PJ com pretensão de 12k max e 10k min. Um candidato com pretensão salarial fora desse range deve ser eliminado. 
+Esse projeto é um lambda que visa comparar perfis com base na remuneração e experiência de candidatos a vagas.
 
+Veja as [instruções](docs/installation.md).
 
-### Requisitos
-A sua aplicação deve atender os seguintes requisitos.
+### Instalação
 
-- Typescript
-- Lint
-- Testes
-- Arquitetura desacoplada
-- Readme organizado
+Para instalação verifique **[installation documentation](docs/installation.md)**.
 
+### Débitos Técnicos:
 
-#### Entrega
-
-- Faça um PR para este repositório com sua solução. Até a data informada.
-- Seu repositório deve estar sendo utilizado com o padrão Gitflow
+- Avaliar o uso do SQS
+- Avaliar o uso SNS
+- Avaliar o uso idempotência
